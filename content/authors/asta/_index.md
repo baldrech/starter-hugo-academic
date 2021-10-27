@@ -6,15 +6,15 @@ title: Asta Audzijonite
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial
+role: my Role
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name:  University
+  url: https://www.
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests includes
 
 # Interests to show in About widget
 interests:

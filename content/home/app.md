@@ -18,7 +18,7 @@ subtitle:
 design:
   columns: "2"
   background:
-    image: homeScreen_en.jpg
+    image: homescreenen.jpg
     image_darken: 1.0
     image_parallax: true
     image_position: center

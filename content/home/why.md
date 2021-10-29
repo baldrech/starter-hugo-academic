@@ -18,7 +18,7 @@ subtitle:
 design:
   columns: "2"
   background:
-    image: fish_background.jpg
+    image: fishbackground.jpg
     image_darken: 1.0
     image_parallax: true
     image_position: center

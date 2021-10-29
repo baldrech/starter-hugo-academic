@@ -1,47 +1,80 @@
-# [Hugo Academic Theme](https://github.com/wowchemy/starter-hugo-academic)
+## Current status
 
-[![Screenshot](https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-themes/main/academic.png)](https://wowchemy.com/hugo-themes/)
+The website is currently up and running. The parallax images (background pictures) are not being displayed at the moment. This is specific to Hostinger as they are displayed with Netlify. Looking into it.
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Setting up your Rstudio
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+This website was created using Hugo and is based on the wowchemy template (https://wowchemy.com).
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+To be able to edit the content and see the changes, one needs to install 3 softwares:
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://wowchemy.com/creators/).
+- `blogdown`, a R package giving you the tools to create websites from scratch using R. Install using `install.packages("blogdown")`
 
-The integrated [**Wowchemy**](https://wowchemy.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+- hugo, a software building the "public" side of the website, based on your files. Install using `blogdown::install_hugo`
 
-- 👉 [**Get Started**](https://wowchemy.com/hugo-themes/)
-- 📚 [View the **documentation**](https://wowchemy.com/docs/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=(%23MadeWithWowchemy%20OR%20%23MadeWithAcademic)&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/wowchemy/hugo-academic-cli) 
-- 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://github.com/wowchemy/wowchemy-hugo-themes/releases)
+- hugo extented, a software allowing the use of fancy widgets and such, which are found in the wowchemy template. Install using https://wowchemy.com/docs/getting-started/install-hugo-extended/
 
-## We ask you, humbly, to support this open source movement
+*How they work together*
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+Blogdown is used to install Hugo and allows you to check out the website locally. To do so, use the function `blogdown::serve_site()` when starting your R session. The website will be available to see in the viewer panel of Rstudio and also in your browser using the local adress displayed when running `blogdown::serve_site()` (usually http://localhost:4321).
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+Hugo creates the `/public` folder from your files. This is what's uploaded on Hostinger and displayed to the user. To run Hugo, type `hugo` in the terminal.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+hugo extended runs in the background, `serve_site()` won't work without it.
 
-<p align="center"><a href="https://wowchemy.com/templates/" target="_blank" rel="noopener"><img src="https://wowchemy.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Wowchemy Website Builder"></a></p>
+Once the hugo server is running, it is automaticly updated as soon as your scripts are saved. To stop the server use `blogdown::stop_server()` (e.g. to reset server)
 
-## Demo image credits
 
-- [Open book](https://unsplash.com/photos/J4kK8b9Fgj8)
-- [Course](https://unsplash.com/photos/JKUTrJ4vK00)
+## Editing fishsizeproject.org
 
-## Latest news
-<!--START_SECTION:news-->
-* [What&#39;s new in v5.2?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.2.0&#x2F;)
-* [What&#39;s new in v5.1?](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.1.0&#x2F;)
-* [Version 5.0 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0&#x2F;)
-* [Version 5.0 Beta 3 (February 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.3&#x2F;)
-* [Version 5.0 Beta 2 (January 2021)](https:&#x2F;&#x2F;wowchemy.com&#x2F;blog&#x2F;v5.0.0-beta.2&#x2F;)
-<!--END_SECTION:news-->
+The content of the website is written in markdown and lives in /content. The homepage (/content/home) contains the different sections being displayed on fishsizeproject.org. These sections are called widgets by wowchemy and many different types are available on https://wowchemy.com/docs/getting-started/page-builder/
 
-[![Analytics](https://ga-beacon.appspot.com/UA-78646709-2/starter-academic/readme?pixel)](https://github.com/igrigorik/ga-beacon)
+Some widgets are called "blank". They are just text block and do not link to anything else. Others such as `content/home/posts.md` are more advanced and serve as summary of another page of the website, in that case, where the posts are stored. It means that `content/home/posts.md` only contains the options to display the post section on the homepage, whereas the content (i.e., the text within the posts) is going to be stored in `content/post`, with one folder per post.
+
+Such widgets can be assigned a button in `config/_default/menus.yaml` among other things. The button will appear at the top of the homepage.
+
+Everything that is not text and markdowns is going to be stored in `assets/media`. When storing pictures, it is best to name them in lower cases without underscore and save them as `.png`. Other characters can lead to bugs from hugo. Galleries of pictures are stored in `assets/media/albums` with one folder per gallery.
+
+## Deploying the website
+
+At the moment, deploying the website is not as streamlined as I would like it to be. One needs to create a fork with only the content of the public folder in it (remember to run `hugo` to update the public folder). Then this fork needs to be uploaded on Hostinger. Sometimes it is done automaticaly, sometimes not, sometimes there is an error. Once the files in `\public` are on Hostinger, the website can be deployed to fishsizeproject.org. As written in *current status*, the public website might differ to your local version. If it does, send me an email (romain.forestier@utas.edu.au) with the issue.
+
+## Useful links
+
+Summary of widgets
+
+https://wowchemy.com/docs/getting-started/page-builder/
+
+Deployment
+
+https://wowchemy.com/docs/hugo-tutorials/deployment/
+
+Markdown syntax
+
+https://wowchemy.com/docs/content/writing-markdown-latex/
+
+### Could be useful links
+
+Deploying Hugo based stuff
+
+https://gohugo.io/hosting-and-deployment/hugo-deploy/
+
+Git and Hostinger
+
+https://support.hostinger.com/en/articles/1583302-how-can-i-deploy-a-git-repository
+
+DNS
+
+https://www.cloudflare.com/en-au/learning/dns/what-is-dns/
+
+youtube hugo tuto
+
+https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3
+
+hugo and blogdown
+
+https://bookdown.org/yihui/blogdown/hugo.html
+
+easier git deploy?
+
+https://stackoverflow.com/questions/41734067/how-can-i-deploy-from-github-build-folder-to-hostinger-server

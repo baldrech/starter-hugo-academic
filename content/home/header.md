@@ -32,4 +32,6 @@ design.background:
   image = "fish_background.jpg"
 ---
 
-Aiming to understand things
+Are fish getting smaller with climate change? 
+How many big fish are left in our seas?
+

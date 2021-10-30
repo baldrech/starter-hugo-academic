@@ -22,11 +22,20 @@ design:
     text_color_light: true
 ---
 
-Things
+This project is the product of many years of work investigating trends in fish body sizes. For more information, check out the following resources.
 
+The video descriptions of this project:
+https://youtu.be/ACODRl3F2yY
+https://vimeo.com/396407281
 
+Public lecture in the University of Tasmania “Island of Ideas” series: “Human impacts on coastal fish size diversity”:
+https://youtu.be/s4BmvwE50Kc
 
+Articles on climate change effects on fish size:
+https://ecoevocommunity.nature.com/posts/65022-do-fishes-really-get-smaller-with-warming
 
+For more see Asta Audzijonyte's (the lead scientist) research blog:
+https://astaaudzi.com/
 
-
-More text lower
+Broader size ecology research:
+https://www.sizeecology.org/

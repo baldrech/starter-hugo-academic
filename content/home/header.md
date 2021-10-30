@@ -13,10 +13,10 @@ weight: 5
 active: true
 
 # Section title
-title: What we want
+title: What is fish size project?
 
 # Section subtitle
-subtitle: place holder
+subtitle: Are fish getting smaller? Or are there fewer large fish in the sea?
 
 # Section design
 design:
@@ -32,4 +32,14 @@ design.background:
   image = "fish_background.jpg"
 ---
 
-Aiming to understand things
+We aim fish body **size trends over time** (as a consequence of climate change or fishing) using evidence about fish body size. ​
+
+This evidence (historical data) comes in the form of:​
+
+Photos of fish catches​
+
+Fishing club records​
+
+Photos of fish catches​
+
+Fishing club records

@@ -27,11 +27,24 @@ design:
   spacing:
     padding: ["20px", "0", "20px", "0"]
 ---
+Ever heard **“the fish were bigger in my day”**?
 
-In marine and freshwater ecosystems, and especially for fish, your size often determines who you are. On land a small lion will not be eaten by a zebra, but in the ocean a tiny tuna can easily become a prey to an anchovy.  
+But were they? And what’s going to happen next?
 
-Fish size diversity, or more specifically, the numbers of large fish are important for fish population reproductive capacity and resilience, for ecological role different species have in an ecosystem. Large fish are also important for humans – economically, culturally, spiritually. They are amazing creatures depicted in stories and myths of most cultures.  
+Science needs data to answer these questions.
 
-But fish sizes are changing and size diversity is rapidly being lost. This is first and mostly due to fishing. Most harvested fish populations consist largely of young individuals that never get a chance to grow big. Fish sizes are also changing due to global warming, although we don’t yet fully understand how.  
+**But first, why does size matter?**
+In the ocean size can be key in determining how long you live, how many offspring you have, and how you respond to environmental conditions. Although they will grow to reach different shapes, sizes, and explore different habitats, most fish start out as tiny larvae. Larval fish can be orders of magnitude smaller than their adult size. A larval sunfish (or mola mola) can fit on your fingertips, but adults weigh up to ~1,000 kg (a dramatic increase in size). Meanwhile, larval tuna are the same size as larval anchovy (both ~3-4 mm), despite tuna growing up to ~3.7 m long (largest recorded) whilst anchovy max. out at ~10-25 cm.
 
-This project aims to document and understand how fish sizes have been and are being changed by humans, what we have lost already, how can we restore it, and why it is important.  
+**It's a big eat small world.**
+In a fluid environment where a half-eaten meal can be swept away, and without hands or claws to manipulate prey, a vast majority of fish swallow their prey whole. This means most fish can only eat prey that are smaller than them (although there are notable exceptions, aka great white sharks). This means that not only do large adult tuna feed on anchovy, but also that (tiny) larval tuna can be eaten by an adult anchovy! Contrast this with the classic food chain scenario of a savannah ecosystem, where a baby lion is most certainly not at risk of being eaten by a full-grown antelope (i.e. predator or prey status doesn't depend on size), and you can see how big a role size plays in our aquatic environments.
+
+**Size is important in other ways.**
+The biggest adults also often produce the most offspring. Thus a large number of big adults generally means more offspring for the next generation. Large fish can also be vital for maintaining ecosystem health and structure; they are able to feed up on prey, and provide services to the ecosystem, that smaller fish have less capacity for. Large fish, like large elephants roaming a savannah, polar bears in the Arctic, or elk moving through a forest, are also wonderful to witness in their environment; and large fish have important cultural and intrinsic values for many human societies.
+
+**Fish sizes are changing and size diversity is rapidly being lost.**
+Fish size diversity (the range of sizes, and the number of large versus small individuals) is changing. This is first and foremost due to fishing. Most harvested fish populations now consist largely of young individuals that never get a chance to grow big (and provide the ecosystem services we appreciate, or produce large numbers of offspring for the next generation). Fish maximum and average body sizes are also changing due to global warming, although we don’t yet fully understand how and need more data on.
+
+We can use information on fish sizes to tell us about population structure (how many fish are out there, whether the population is growing or declining, and how to estimate what will happen in the future) along with broader ecosystem functioning. 
+
+This project aims to document and understand how fish sizes have been and are being changed by humans, what we have lost already, how can we restore it, and to highlight why it is important.  

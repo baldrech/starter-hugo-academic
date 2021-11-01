@@ -13,10 +13,11 @@ weight: 5
 active: true
 
 # Section title
-title: Fish Size Project
+title: What is fish size project?
 
 # Section subtitle
-subtitle: Are fish getting smaller?
+subtitle: Are fish getting smaller? Or are there fewer large fish in the sea?
+
 
 # Section design
 design:
@@ -32,8 +33,15 @@ design.background:
   image = "fish_background.jpg"
 ---
 
-How many big fish are left in our seas?
-Are fish getting smaller with climate change? 
+We aim fish body **size trends over time** (as a consequence of climate change or fishing) using evidence about fish body size. ​
 
+This evidence (historical data) comes in the form of:​
 
+Photos of fish catches​
+
+Fishing club records​
+
+Photos of fish catches​
+
+Fishing club records
 

@@ -18,6 +18,7 @@ title: What is fish size project?
 # Section subtitle
 subtitle: Are fish getting smaller? Or are there fewer large fish in the sea?
 
+
 # Section design
 design:
   # Use a 1-column layout
@@ -43,3 +44,4 @@ Fishing club records​
 Photos of fish catches​
 
 Fishing club records
+

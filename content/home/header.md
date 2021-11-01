@@ -13,10 +13,10 @@ weight: 5
 active: true
 
 # Section title
-title: What we want
+title: Fish Size Project
 
 # Section subtitle
-subtitle: place holder
+subtitle: Are fish getting smaller?
 
 # Section design
 design:
@@ -32,6 +32,8 @@ design.background:
   image = "fish_background.jpg"
 ---
 
-Are fish getting smaller with climate change? 
 How many big fish are left in our seas?
+Are fish getting smaller with climate change? 
+
+
 

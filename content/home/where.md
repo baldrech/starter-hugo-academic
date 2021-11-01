@@ -25,6 +25,4 @@ design:
     text_color_light: true
 ---
 
-Locations of fish size data available and places where we are concentrating our efforts at the moment. Eventually we want to go global and we need your help.  
-
-Inbuilt dynamic map showing available points of data collection, key projects, etc.  
+At present we are launching our app, and have focus areas for intensive investigation. If you are intested in becoming involved we are open to data from across the globe and value your contribution.

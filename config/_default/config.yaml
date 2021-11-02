@@ -5,7 +5,7 @@
 
 title: The Fish Size Project # Website name
 
-baseurl: 'https://example.com/' # Website URL
+baseurl: 'http://fishsizeproject.org' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################

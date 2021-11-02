@@ -28,20 +28,18 @@ design:
     color: '#202958'
     text_color_light: true
   #view: 3
-  
-design.background:
-  image = "fish_background.jpg"
+
 ---
 
-We aim fish body **size trends over time** (as a consequence of climate change or fishing) using evidence about fish body size. ​
+We aim fish body **size trends over time** (as a consequence of climate change or fishing) using evidence about fish body size. 
 
-This evidence (historical data) comes in the form of:​
+This evidence (historical data) comes in the form of:
 
-Photos of fish catches​
+Photos of fish catches
 
-Fishing club records​
+Fishing club records
 
-Photos of fish catches​
+Photos of fish catches
 
 Fishing club records
 

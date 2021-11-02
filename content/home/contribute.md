@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 # Section title
-title: Get on board: how to contribute
+title: "Get on board: how to contribute"
 
 # Section subtitle
 subtitle: We are the ocean's stewards.
@@ -28,13 +28,13 @@ We come in all shapes and sizes, **but with a common love of the oceans.**
 
 This project is aimed at bringing together the everyday experiences of people at the fore-front of human-ocean interactions,
 
-From recreational & artisanal fishing, ​
+From recreational & artisanal fishing, 
 
-strolling through fish markets,​
+strolling through fish markets,
 
-snorkling & diving,​
+snorkling & diving,
 
-to scientists & stakeholders. ​
+to scientists & stakeholders. 
 
 **How you can partake**
 

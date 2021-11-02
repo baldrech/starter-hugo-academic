@@ -18,14 +18,14 @@ subtitle:
 design:
   columns: "2"
   background:
-    image: fishbackground.png
+    image: whybackground.jpg
     image_darken: 1.0
     image_parallax: true
     image_position: center
     image_size: cover
     text_color_light: TRUE
-  spacing:
-    padding: ["20px", "0", "20px", "0"]
+  # spacing:
+  #   padding: ["20px", "0", "20px", "0"]
 ---
 Ever heard **“the fish were bigger in my day”**?
 
@@ -48,3 +48,4 @@ Fish size diversity (the range of sizes, and the number of large versus small in
 We can use information on fish sizes to tell us about population structure (how many fish are out there, whether the population is growing or declining, and how to estimate what will happen in the future) along with broader ecosystem functioning. 
 
 This project aims to document and understand how fish sizes have been and are being changed by humans, what we have lost already, how can we restore it, and to highlight why it is important.  
+

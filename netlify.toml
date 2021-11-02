@@ -1,5 +1,6 @@
 [build]
   command = "hugo --gc --minify -b $URL"
+  command = "CI= npm run build"
   publish = "public"
 
 [build.environment]
@@ -19,3 +20,4 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+

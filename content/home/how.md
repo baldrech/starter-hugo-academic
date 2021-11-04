@@ -25,6 +25,15 @@ design:
     text_color_light: true
 ---
 
+Step 1: collect available fish size data from diverse sources.
+
+Step 2: Apply size-based theory and statistical analyses to estimate fish size distributions through space. 
+
+Step 3: Estimate expected distributions in unfished populations and document what we are missing and what we can change. 
+
+
+<!---
+
 **Step 1: Collect fish size data from diverse sources**
 Here, we focus on coastal and freshwater fish, as these species are most readily encountered by people in our every-day lives, and often fall into ‘data-poor’ (limited information) fisheries. We will collect fish body size information from a vast array of sources - historical records, recreational anglers & divers, underwater surveys, local fish markets, artisanal fishers, and citizen science.  
 
@@ -33,3 +42,4 @@ We will build upon the existing and growing evidence we collect to estimate size
 
 **Step 3: document fish size distributions through space and time**
 Fish size information can inform us about ecosystem functioning, whether fish sizes are changing, help clarify the role of fishing and climate change; and help us identify how we can sustain or promote a high abundance of large-bodied fish into the future.  
+-->

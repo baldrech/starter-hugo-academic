@@ -16,7 +16,8 @@ active: true
 title: What is fish size project?
 
 # Section subtitle
-subtitle: Are fish getting smaller? Or are there fewer large fish in the sea?
+# subtitle: Are fish getting smaller? Or are there fewer large fish in the sea?
+
 
 
 # Section design
@@ -31,7 +32,11 @@ design:
 
 ---
 
-We aim fish body **size trends over time** (as a consequence of climate change or fishing) using evidence about fish body size. 
+Aiming to understand and document how humans are changing fish sizes, what it means for ecosystems and fisheries, and what can be done about it. 
+
+
+<!---
+We aim fish body **size trends over time** (as a consequence of climate change or fishing) using evidence about fish body size.
 
 This evidence (historical data) comes in the form of:
 
@@ -42,4 +47,4 @@ Fishing club records
 Photos of fish catches
 
 Fishing club records
-
+-->

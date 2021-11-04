@@ -13,7 +13,7 @@ weight: 40
 title: "Get on board: how to contribute"
 
 # Section subtitle
-subtitle: We are the ocean's stewards.
+# subtitle: We are the ocean's stewards.
 
 # Section design
 design:
@@ -24,6 +24,20 @@ design:
     color: '#1883E5'
     text_color_light: true
 ---
+
+
+Are you interested? We need you! Please join our project. Even small contributions count.
+
+1.	Help us collect data on fish sizes in your local area. Whether you are an angler, artisanal fisher, spearfishing enthusiast, diver, or like going to a local fish market, you can tell us what you see. Our app will be launching soon, so please contact us if you would like to test it in your local area.
+
+2.	Help us collect historical data and photos. You can use our app or get in touch  with us. 
+
+3.	Get in touch if you are a local fish expert and would like to help with fish identification.
+
+
+
+
+<!---
 We come in all shapes and sizes, **but with a common love of the oceans.**
 
 This project is aimed at bringing together the everyday experiences of people at the fore-front of human-ocean interactions,
@@ -48,3 +62,4 @@ Help us collect historical information on how big the fish could get. You can up
 If you have expertise in local fish identification, and can help us ensure the photos of fish we collect are correctly identified to help minimise errors in our data, and are keen to get on board, pease reach out to us.  
 
 If you would like to help communicate the message, spread the word around, start a local project, contribute IT skills, contribute with beautiful drawings, write a popular science article, or help in other ways – we would love to hear it.  
+-->

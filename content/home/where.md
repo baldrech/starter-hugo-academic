@@ -25,4 +25,8 @@ design:
     text_color_light: true
 ---
 
+Coming soon. 
+
+<!---
 At present we are launching our app, and have focus areas for intensive investigation. If you are intested in becoming involved we are open to data from across the globe and value your contribution.
+-->

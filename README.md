@@ -80,3 +80,11 @@ https://bookdown.org/yihui/blogdown/hugo.html
 easier git deploy?
 
 https://stackoverflow.com/questions/41734067/how-can-i-deploy-from-github-build-folder-to-hostinger-server
+
+2021 tutorial withg yaml
+http://www.mysmu.edu/faculty/jwwang/post/building-your-website-with-hugo-and-rmarkdown/
+
+
+## To add somewhere
+
+blogdown won't find the right config if starting a fresh template. Just copy config/_default/config.yaml into root directory. Just necessary to view website in rstudio

@@ -21,15 +21,22 @@ design:
   columns: "2"
   # Use a dark navy background with light text.
   background:
-    color: '#1883E5'
+    color: '#202958'
     text_color_light: true
 ---
 
 Step 1: collect available fish size data from diverse sources.
 
+![](howFigure.jpg)
+
 Step 2: Apply size-based theory and statistical analyses to estimate fish size distributions through space. 
 
+![](howFigure2.jpg)
+
 Step 3: Estimate expected distributions in unfished populations and document what we are missing and what we can change. 
+
+
+
 
 
 <!---

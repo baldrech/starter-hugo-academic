@@ -10,7 +10,7 @@ headless: true
 weight: 40
 
 # Section title
-title: "Get on board: how to contribute"
+title: "Contribute"
 
 # Section subtitle
 # subtitle: We are the ocean's stewards.
@@ -21,19 +21,25 @@ design:
   columns: "2"
   # Use a dark navy background with light text.
   background:
-    color: '#1883E5'
-    text_color_light: true
+    #color: '#1883E5'
+    image: fishMarket4.jpg
+    image_darken: 1.0
+    image_parallax: true
+    image_position: center
+    image_size: cover
+    text_color_light: TRUE
 ---
 
 
 Are you interested? We need you! Please join our project. Even small contributions count.
 
-1.	Help us collect data on fish sizes in your local area. Whether you are an angler, artisanal fisher, spearfishing enthusiast, diver, or like going to a local fish market, you can tell us what you see. Our app will be launching soon, so please contact us if you would like to test it in your local area.
+1.	Help us collect data on fish sizes in your local area. Whether you are an angler, artisanal fisher, spearfishing enthusiast, diver, or like going to a local fish market, you can tell us what you see. Our app will be launching soon, so please [contact us](mailto:asta.audzijonyte@utas.edu.au) if you would like to test it in your local area.
 
-2.	Help us collect historical data and photos. You can use our app or get in touch  with us. 
+2.	Help us collect historical data and photos. You can use our app or [get in touch](mailto:asta.audzijonyte@utas.edu.au) with us. 
 
 3.	Get in touch if you are a local fish expert and would like to help with fish identification.
 
+![](contributeEmbed.png)
 
 
 

@@ -13,7 +13,7 @@ weight: 5
 active: true
 
 # Section title
-title: What is fish size project?
+title: Aim
 
 # Section subtitle
 # subtitle: Are fish getting smaller? Or are there fewer large fish in the sea?
@@ -23,7 +23,7 @@ title: What is fish size project?
 # Section design
 design:
   # Use a 1-column layout
-  columns: "2"
+  columns: "3"
   # Use a dark navy background with light text.
   background:
     color: '#202958'
@@ -32,7 +32,7 @@ design:
 
 ---
 
-Aiming to understand and document how humans are changing fish sizes, what it means for ecosystems and fisheries, and what can be done about it. 
+To understand and document how humans are changing fish sizes, what it means for ecosystems and fisheries, and what can be done about it. 
 
 
 <!---

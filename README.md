@@ -88,3 +88,7 @@ http://www.mysmu.edu/faculty/jwwang/post/building-your-website-with-hugo-and-rma
 ## To add somewhere
 
 blogdown won't find the right config if starting a fresh template. Just copy config/_default/config.yaml into root directory. Just necessary to view website in rstudio
+
+my savior:
+
+https://matteocourthoud.github.io/post/website/

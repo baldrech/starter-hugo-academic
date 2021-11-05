@@ -9,7 +9,7 @@ headless: true
 weight: 80
 
 # Section title
-title: Team and collaborators
+title: Who we are?
 
 # Section subtitle
 # subtitle:

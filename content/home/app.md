@@ -18,14 +18,16 @@ subtitle: Coming soon
 design:
   columns: "2"
   background:
-    image: appbackground.png
-    image_darken: 1.0
-    image_parallax: true
-    image_position: center
-    image_size: cover
+    color: '#202958'
     text_color_light: true
-  spacing:
-    padding: ["20px", "0", "20px", "0"]
+  #   image: appbackground.png
+  #   image_darken: 1.0
+  #   image_parallax: true
+  #   image_position: center
+  #   image_size: cover
+    
+  # spacing:
+  #   padding: ["20px", "0", "20px", "0"]
 ---
 
 {{< gallery album="appScreenshots" >}}

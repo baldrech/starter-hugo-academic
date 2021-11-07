@@ -21,8 +21,8 @@ design:
   columns: "2"
   # Use a dark navy background with light text.
   background:
-    #color: '#1883E5'
-    image: fishMarket4.jpg
+    color: '#1883E5'
+    #image: fishMarket4.jpg
     image_darken: 1.0
     image_parallax: true
     image_position: center
